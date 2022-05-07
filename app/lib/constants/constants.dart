@@ -14,3 +14,4 @@ Color cercleColor = Color(0xFF1977F3);
 Color fontColor = Color(0xFF444D6E);
 Color fontTitle = Color(0xFF19295C);
 Color opaText = Color(0xFFBABDC9);
+Color publiBtn = Color(0xFFEFF2F7);

@@ -529,57 +529,90 @@ class _HomePageState extends State<HomePage> {
                   child: Column(
                     children: [
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Container(
-                            height: 33,
-                            width: 33,
-                            decoration: BoxDecoration(
-                              color: Colors.black,
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-                          SizedBox(
-                            width: 13,
-                          ),
-                          Column(
-                            mainAxisAlignment: MainAxisAlignment.start,
+                          Row(
                             children: [
-                              Text(
-                                "Jean-Marie Lepen",
-                                style: TextStyle(
-                                  color: fontColor,
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.bold,
-                                  fontFamily: "Hybi11AmigoRegular",
+                              Container(
+                                height: 33,
+                                width: 33,
+                                decoration: BoxDecoration(
+                                  color: Colors.black,
+                                  shape: BoxShape.circle,
                                 ),
                               ),
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceAround,
+                              SizedBox(
+                                width: 13,
+                              ),
+                              Column(
                                 children: [
-                                  Image.asset("assets/images/globe.png"),
-                                  SizedBox(
-                                    width: 10,
-                                  ),
                                   Text(
-                                    "Il y a 3 jours",
+                                    "Jean-Marie Lepen",
                                     style: TextStyle(
-                                      color: opaText,
-                                      fontSize: 10,
+                                      color: fontColor,
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold,
                                       fontFamily: "Hybi11AmigoRegular",
                                     ),
+                                  ),
+                                  Row(
+                                    children: [
+                                      Image.asset("assets/images/globe.png"),
+                                      SizedBox(
+                                        width: 10,
+                                      ),
+                                      Text(
+                                        "Il y a 3 jours",
+                                        style: TextStyle(
+                                          color: opaText,
+                                          fontSize: 10,
+                                          fontFamily: "Hybi11AmigoRegular",
+                                        ),
+                                      )
+                                    ],
                                   )
                                 ],
-                              )
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                height: 25,
+                                width: 25,
+                                decoration: BoxDecoration(
+                                  color: publiBtn,
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+                              SizedBox(
+                                width: 7,
+                              ),
+                              Container(
+                                height: 25,
+                                width: 25,
+                                decoration: BoxDecoration(
+                                  color: publiBtn,
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
                             ],
                           )
                         ],
-                      )
+                      ),
+                      Text(
+                        "Coucou, ceci est une description!",
+                        style: TextStyle(
+                          color: fontColor,
+                          fontSize: 13,
+                          fontFamily: "Hybi11AmigoRegular",
+                        ),
+                      ),
                     ],
                   ),
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),
