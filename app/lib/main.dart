@@ -19,10 +19,13 @@ class App extends StatelessWidget {
         appBar: AppBar(
           elevation: 0.3,
           backgroundColor: appbar_bg,
-          leading: Icon(
-            Icons.facebook,
-            color: logo_bg,
-            size: 35,
+          leading: Padding(
+            padding: const EdgeInsets.only(left: 10),
+            child: Icon(
+              Icons.facebook,
+              color: logo_bg,
+              size: 50,
+            ),
           ),
           actions: [
             Container(

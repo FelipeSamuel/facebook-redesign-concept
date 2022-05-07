@@ -64,6 +64,12 @@ flutter:
     - assets/images/messenger.png
     - assets/images/noun_notification.png
     - assets/images/noun_search.png
+    - assets/images/smile.png
+    - assets/images/camera-to-take-photos.png
+    - assets/images/video-camera.png
+    - assets/images/view.png
+    - assets/images/globe.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -76,17 +82,7 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Hybi11AmigoRegular
+      fonts:
+        - asset: assets/fonts/Hybi11AmigoRegular.ttf
